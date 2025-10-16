@@ -32,12 +32,9 @@ console.log(typeof(city)); //string
 console.log(`I am a frontend 
 developer`);
 
-//console.log("99"+"9"); //o/p: 999 (concatination)
-//console.log("99"+9); //o/p: 999 (concatination)
-//console.log(99+"9"); //o/p: 999 (concatination)
-//console.log("99"-9);   //o/p : 90 (simple substraction)
-//console.log(99-"9");   //o/p : 90 (simple substraction)
-//console.log("Sunil"-8);   //NaN  //not a number
+
+
+
 
 
 
