@@ -25,12 +25,10 @@ console.log(arr)
 console.log(obj)
 console.log(typeof(city)); //string
 
-
-
-
-
+//to type the string on different lines (use backtick not single quote)
 console.log(`I am a frontend 
 developer`);
+
 
 
 
