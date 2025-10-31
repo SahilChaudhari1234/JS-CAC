@@ -20,7 +20,7 @@ console.log(numArr2.pop());  //5   just pop the last element hence no need to pa
 //to add the element at first position (remember the method name as it is different from its function)
 numArr2.unshift(3)
 console.log(numArr2);   //[ 3, 9, 8, 7, 6 ]
-//but it needs to shift all the elements by one position hence will load on comp and time consuming but useful in cases like to do list where the user wants to add thing to do at first position
+//but it needs to shift all the elements by one position hence will load on comp and time consuming (if the array is too big) but useful in cases like to do list where the user wants to add thing to do at first position
 
 //to remove the element from first position 
 numArr2.shift()
@@ -36,7 +36,10 @@ console.log(numArr3.indexOf(4)); //3
 console.log(numArr3.indexOf(9)); //-1
 
 //to convert array to string 
+const tempArray = numArr3.join()
 console.log(numArr3.join());     //1,2,3,4,5 removed []
+console.log("123",typeof(tempArray)); //123 string
+
 
 console.log("...............................");
 
